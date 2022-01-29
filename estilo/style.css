@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: Calibri
+}
+
+h1,h2,h3,h4,h5{font-family: Geneva
+}
+
+/* CLASES DEL HEADER*/
+
+.header{
+    background-color: rgb(150, 101, 38);
+    height: 111px;
+    padding: 10px 10px 40px 5px;
+    margin-bottom: 10px;
+}
+
+/*
+.header__a{
+
+}
+*/
+
+.header__a-img{
+    display: inline-block;
+}
+
+.header__nav{
+
+
+}
+
+
+.header__nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+
+.header__nav-ul-a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header__nav-ul-a-li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid black 2px;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+.titulo{
+    position: absolute;
+    top: 10px;
+    left: 211px;
+    font-size: 50px;
+}
+
+/* CLASES PARTICULARES DE INDEX */
+
+.articulo{
+    padding: 50px;
+    padding-bottom: 400px;
+    margin: 20px;
+    border: solid black 5px;
+    background-color: rgb(223, 221, 219);
+}
+
+/*
+.articulo__h2{
+
+}
+*/
+
+.articulo__section{
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    border: solid black 4px;
+}
+
+/*CLASES PARTICULARES DE SERVICIOS*/
+
+.articuloI{
+    margin: 15px;
+    border: solid black 3px;
+    background-color: rgb(223, 221, 219);
+}
+
+.articuloI__h2{
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.articuloI__p{
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.articuloI__p-a{
+    text-decoration: none;
+}
+
+.formulario{
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    
+}
+
+.articuloI{
+    margin: 15px;
+    border: solid black 3px;
+    background-color: rgb(223, 221, 219);
+
+}
+
+.articuloI__h3{
+    margin: 5px;
+}
+
+
+/*CLASES PARTICULARES DE NOSOTROS*/
+
+
+.articuloII{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+    padding: 10px 20px 10px 20px;
+    border: solid black 3px;
+    border-radius: 30px;
+    background-color: rgb(223, 221, 219)
+}
+
+.articuloII__h2{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.articuloII__p{
+    display: flex;
+    font-size: 20px;
+}
+
+.articuloIII{
+    display: inline-flex;
+    justify-content: center;
+    align-content:center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 600px;
+    margin: 20px;
+    padding: 20px 30px 20px 30px;
+    border: solid black 3px;
+    border-radius: 50%;
+    background-color: rgb(223, 221, 219)
+}
+
+.articuloIII__h3{
+    height: 20px;
+    font-size: 22px;
+
+}
+
+.articuloIII__p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.sectionFlex{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sectionFlex__img{
+    margin: 7px;
+    width: 237px;
+    height: 168px;
+}
+
+
+
+
+/*      ------   */
+
+
+
+
+/* CLASES PARTICULARES DE CONTACTOS */
+
+.iframeMaps{
+    position: absolute;
+    right: 50px;
+    margin-top: 70px;
+    width: 600px;
+    height: 450px;
+    border:0;
+}
+
+.subtitulo{
+    margin: 15px;
+}
+
+.h3{
+    position: absolute;
+    right: 720px;
+    top: 210px;
+}
+
+
+.formularioI{
+    
+    height: 650px;
+    background-color:rgb(223, 221, 219);
+    border: solid black;
+    margin-left: 15px;
+}
+
+.formularioI__input{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    top: 25px;
+    left: 70px;
+    margin: 15px 20px 5px;
+}
+
+.formularioI__textarea{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    top: 25px;
+    left: 70px;
+    margin: 15px 20px 5px;
+
+}
+
+.articuloIV{
+    position: relative;
+    width: 300px;
+    left: 70px;
+    bottom: 130px;
+    background-color:rgb(255, 255, 255);
+    border: solid black;
+    
+}
+
+.articuloIV__h3{
+    font-size: 30px;
+}
+
+.articuloIV__p{
+    font-size: 18px;
+}
+
+
+
+/*CLASES DEL FOOTER*/
+
+.footer{
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 125px;
+    background-color: rgb(83, 37, 24);
+    padding: 10px 25px 10px 25px;
+}
+
+.footer__section{
+    border: solid black 4px;
+    background-color: rgb(223, 221, 219);
+
+}
+
+.footer__section-p{
+    font-size: 20px;
+    padding: 10px;
+    margin:10px
+}
+
+.footer__section-p2{
+    position: relative;
+    font-size: 12px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+.footer__section-p3{
+    position: relative;
+    font-size: 12px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+/*
+.footer__section-a{
+
+}   
+*/
+
+.footer__section-a-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+/*------Otros selectores-----*/
+
+input,label{
+    margin: 7px;
+}
+
+
+/*Productos*/
+
+
+#articleI{
+    position: relative;
+    margin-left: 30px;
+}
+
+#articleII{
+    position: relative;
+    left: 400px;
+    bottom: 107px;
+    margin-left: 30px;
+    margin-bottom: 20x;
+}
+
+#articleIII{
+    position: relative;
+    left: 400px;
+    bottom: 87px;
+    margin-left: 30px;
+}
+
+#articleIV{
+    position: relative;
+    bottom: 192px;
+    margin-left: 30px;
+}
+
+#section{
+    position: relative;
+    left: 580px;
+    top: 100px;
+    width: 700px;
+    height: 270px;
+    padding-top: 30px;
+    padding-right: 5px;
+    margin-bottom: 300px;
+    border: black solid 4px;
+    background-color:rgb(223, 221, 219);
+}
+/**/
+
+#gridMove{
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: "g1 g2" "g3 g4";
+    column-gap: 5px;
+    row-gap: 20px;
+}
+
+#GArea1{grid-area:g1;}
+#GArea2{grid-area:g2;}
+#GArea3{grid-area: g3;}
+#GArea4{grid-area: g4;}
+
+.divPadre{
+    display: grid;
+    
+    max-width: 700px;
+    height: 270px;
+    border: black solid 4px;
+    background-color:rgb(223, 221, 219);
+    font-size: 24px;
+}
+
+.sectionG{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+   
+}
+
+/*-Responsive-*/
+
+
+
+
+/*
+.header__a{
+
+}
+*/
+
+/* Mobile Styles */
+@media only screen and (max-width: 780px) {
+    .header__nav-ul-a{
+    
+    }
+}
+
+  
+@media only screen and (max-width: 780px) {
+    .header__nav-ul{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+}
+
+
+
+.header__nav-ul-a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+}
+
+@media only screen and (max-width: 780px) {
+    .header__nav-ul-a-li{
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: solid black 2px;
+        background-color: rgba(255, 255, 255, 0.089);
+    }
+}
+
+
+@media only screen and (max-width: 780px) {
+    .titulo{
+        position: absolute;
+        top: 30px;
+        left: 140px;
+        font-size: 35px;
+    }
+}
+
+
+
+@media only screen and (max-width: 960px) {
+    .articuloIII{
+        display: inline-flex;
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        width: 300px;
+        margin: 20px;
+        padding: 20px 30px 20px 30px;
+        border: solid black 3px;
+        border-radius: 10%;
+        background-color: rgb(223, 221, 219)
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .articuloIII__h3{
+        display: inline-flex;
+        margin-bottom: 30px;
+        flex-direction: column;
+       
+        
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    #gridMove{
+        display: grid;
+        justify-content: space-around;
+        grid-template-areas: "g1" "g2" "g3" "g4";
+        row-gap: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 627px) {
+    .divPadre{
+        display: grid;
+        
+        max-width: 500px;
+        height: 300px;
+        border: black solid 4px;
+        background-color:rgb(223, 221, 219);
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 987px) {
+    .iframeMaps{
+        position: absolute;
+        right: 50px;
+        margin-top: 70px;
+        width: 300px;
+        height: 225px;
+        border:0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .iframeMaps{
+        position: absolute;
+        right: 50px;
+        margin-top: 70px;
+        width: 200px;
+        height: 150px;
+        border:0;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .iframeMaps{
+        position: absolute;
+        right: 100px;
+        margin-top: 370px;
+        width: 200px;
+        height: 150px;
+        border:0;
+    }
+}
